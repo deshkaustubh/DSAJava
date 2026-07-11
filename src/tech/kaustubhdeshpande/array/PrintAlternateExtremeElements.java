@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class PrintAlternateExtremeElements {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6};
+        int[] arr = {1, 2, 3, 4, 5};
         System.out.println("Old Array: " + Arrays.toString(arr));
         System.out.println("New Array: " + Arrays.toString(alternateExtremes(arr)));
     }
