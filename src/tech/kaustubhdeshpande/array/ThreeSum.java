@@ -1,0 +1,29 @@
+package tech.kaustubhdeshpande.array;
+
+import java.util.*;
+
+public class ThreeSum {
+    public List<List<Integer>> threeSum(int[] nums) {
+
+        Set<List<Integer>> result = new HashSet<>();
+        int n = nums.length;
+
+        for (int i = 0; i < n - 2; i++) {
+            for (int j = i + 1; j < n - 1; j++) {
+                for (int k = j + 1; k < n; k++) {
+                    List<Integer> temp = new ArrayList<>();
+                    if (nums[i] + nums[j] + nums[k] == 0) {
+                        temp.add(nums[i]);
+                        temp.add(nums[j]);
+                        temp.add(nums[k]);
+                        // to avoid duplicate entries we sort and use Set
+                        Collections.sort(temp);
+                        result.add(temp);
+                    }
+                }
+            }
+        }
+
+        return new ArrayList<>(result);
+    }
+}

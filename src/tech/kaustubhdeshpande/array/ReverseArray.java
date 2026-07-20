@@ -9,12 +9,30 @@ public class ReverseArray {
         System.out.printf("New Array: %s", Arrays.toString(reversedArray(arr)));
     }
 
+//    static int[] reversedArray(int[] arr) {
+//        for (int i = 0; i < arr.length/2 ; i++) {
+//            int temp = arr[i];
+//            arr[i] = arr[arr.length - i - 1];
+//            arr[arr.length - i - 1] = temp;
+//        }
+//        return arr;
+//    }
+
+
+    // using 2 pointer technique
     static int[] reversedArray(int[] arr) {
-        for (int i = 0; i < arr.length/2 ; i++) {
-            int temp = arr[i];
-            arr[i] = arr[arr.length - i - 1];
-            arr[arr.length - i - 1] = temp;
+        int i = 0;
+        int j = arr.length - 1;
+
+        while (i <= j) {
+            int temp = arr[j];
+            arr[j] = arr[i];
+            arr[i] = temp;
+            i++;
+            j--;
         }
+
         return arr;
     }
+
 }
