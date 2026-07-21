@@ -29,8 +29,10 @@ repository.
 19. [Find First Repeating Element](src/tech/kaustubhdeshpande/array/)
 20. [Find Pivot Index](src/tech/kaustubhdeshpande/array/)
 21. [Maximum Subarray: Kadane's Algorithm](src/tech/kaustubhdeshpande/array/)
-22. [](src/tech/kaustubhdeshpande/array/)
+22. [2-D Array Sum of each row in a 2D array](src/tech/kaustubhdeshpande/array/)
 23. [](src/tech/kaustubhdeshpande/array/)
+24. [](src/tech/kaustubhdeshpande/array/)
+25. [](src/tech/kaustubhdeshpande/array/)
 
 ## How to Use
 
