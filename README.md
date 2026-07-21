@@ -27,8 +27,8 @@ repository.
 17. [Two Sum](src/tech/kaustubhdeshpande/array/TwoSum.java)
 18. [3 Sum](src/tech/kaustubhdeshpande/array/ThreeSum.java)
 19. [Find First Repeating Element](src/tech/kaustubhdeshpande/array/)
-20. [](src/tech/kaustubhdeshpande/array/)
-21. [](src/tech/kaustubhdeshpande/array/)
+20. [Find Pivot Index](src/tech/kaustubhdeshpande/array/)
+21. [Maximum Subarray: Kadane's Algorithm](src/tech/kaustubhdeshpande/array/)
 22. [](src/tech/kaustubhdeshpande/array/)
 23. [](src/tech/kaustubhdeshpande/array/)
 
