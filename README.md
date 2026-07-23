@@ -34,7 +34,7 @@ repository.
 24. [Wave Print Matrix (Snake Like)](src/tech/kaustubhdeshpande/array/WavePrintMatrix.java)
 25. [Sorting Algorithms](src/tech/kaustubhdeshpande/array/SortingAlgorithms.java)
 26. [Binary Search Implementation](src/tech/kaustubhdeshpande/array/BinarySearchImplementation.java)
-27. [](src/tech/kaustubhdeshpande/array/)
+27. [Upper bound and lower bound](src/tech/kaustubhdeshpande/array/BinaryLowerBoundUpperBound.java)
 28. [](src/tech/kaustubhdeshpande/array/)
 29. [](src/tech/kaustubhdeshpande/array/)
 
